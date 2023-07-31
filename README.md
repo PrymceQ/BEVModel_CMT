@@ -15,11 +15,11 @@ Thanks for the CMT authors！[Paper](https://github.com/junjie18/CMT) | [Code](h
 - ckpts/
 
 ## Build Envs
-You can refer to the official configuration environment documentation.
+You can refer to the official configuration environment documentation. [Official Git](https://github.com/junjie18/CMT)
 
 Or use the Conda env configuration file we provide.
 ```
-conda env create -f myenv.yaml
+conda env create -f cmt_env.yaml
 ```
 
 ## Data create
@@ -87,4 +87,15 @@ ps -ef ｜grep [command]
 ```
 kill -9 [PID]
 ```
+
+## Key Model Files
+
+Here we have made simple annotations on some key model files in chinese, these annotations are based on "voxel0100_r50_800x320_epoch20" config. 
+
+You can find them in:
+- projects\mmdet3d_plugin\models\detectors\cmt.py
+- projects\mmdet3d_plugin\models\dense_heads\cmt_head.py
+- projects\mmdet3d_plugin\models\necks\cp_fpn.py
+- projects\mmdet3d_plugin\models\utils\cmt_transformer.py
+- projects\mmdet3d_plugin\models\utils\grid_mask.py
 
