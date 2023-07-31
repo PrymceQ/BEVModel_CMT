@@ -14,6 +14,14 @@ Thanks for the CMT authors！[Paper](https://github.com/junjie18/CMT) | [Code](h
 - tools/
 - ckpts/
 
+## Build Envs
+You can refer to the official configuration environment documentation.
+
+Or use the Conda env configuration file we provide.
+```
+conda env create -f myenv.yaml
+```
+
 ## Data create
 
 ```
