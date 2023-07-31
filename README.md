@@ -35,8 +35,7 @@ python tools/test.py projects/configs/fusion/cmt_voxel0100_r50_800x320_cbgs.py c
 
 ID | Name | mAP | NDS | mATE | mASE | mAOE | mAVE | mAAE | Per-class results | Epochs | Data | Learning rate | Batch_size | GPUs | Train_time | Eval_time | Log_file
 :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :-----------
-0 | voxel0100_r50_800x320_epoch20 | 0.6275 | 0.6784 | 0.3294 | 0.2541 | 0.3035 | 0.2810 | 0.1853 |  ![1](https://github.com/PrymceQ/BEVModel_CMT/assets/109404970/c8c6b476-3cac-47b8-8cdf-27bf5154910d) | 20 | All | optimizer.lr=0.00007, lr_config.target_ratio=(3, 0.0001), | 8, sample per gpu=2 | 4 x Nvidia Geforce 3090 | 4days8hours | 83.6s | work_dirs
-/cmt_voxel0100_r50_800x320_cbgs_20230717/
+0 | voxel0100_r50_800x320_epoch20 | 0.6275 | 0.6784 | 0.3294 | 0.2541 | 0.3035 | 0.2810 | 0.1853 |  ![1](https://github.com/PrymceQ/BEVModel_CMT/assets/109404970/c8c6b476-3cac-47b8-8cdf-27bf5154910d) | 20 | All | optimizer.lr=0.00007, lr_config.target_ratio=(3, 0.0001), | 8, sample per gpu=2 | 4 x Nvidia Geforce 3090 | 4days8hours | 83.6s | work_dirs/cmt_voxel0100_r50_800x320_cbgs_20230717/
 
 
 ## Resolved issues
