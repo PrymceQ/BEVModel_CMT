@@ -1,7 +1,7 @@
 # BEVModel_CMT🚖
 The reproduction project of the BEV model # Cross Modal Transformer (CMT), which includes some code annotation work.
 
-Thanks for the CMT authors！[Paper](https://github.com/junjie18/CMT) | [Code](https://github.com/junjie18/CMT)
+Thanks for the CMT authors！[Paper](https://arxiv.org/pdf/2301.01283.pdf) | [Code](https://github.com/junjie18/CMT)
 
 ## 🌵Necessary File Format
 - data/nuscenes/
