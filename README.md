@@ -93,9 +93,9 @@ kill -9 [PID]
 Here we have made simple annotations on some key model files in chinese, these annotations are based on "voxel0100_r50_800x320_epoch20" config. 
 
 You can find them in:
-- projects\mmdet3d_plugin\models\detectors\cmt.py
-- projects\mmdet3d_plugin\models\dense_heads\cmt_head.py
-- projects\mmdet3d_plugin\models\necks\cp_fpn.py
-- projects\mmdet3d_plugin\models\utils\cmt_transformer.py
-- projects\mmdet3d_plugin\models\utils\grid_mask.py
+- projects/mmdet3d_plugin/models/detectors/cmt.py
+- projects/mmdet3d_plugin/models/dense_heads/cmt_head.py
+- projects/mmdet3d_plugin/models/necks/cp_fpn.py
+- projects/mmdet3d_plugin/models/utils/cmt_transformer.py
+- projects/mmdet3d_plugin/models/utils/grid_mask.py
 
